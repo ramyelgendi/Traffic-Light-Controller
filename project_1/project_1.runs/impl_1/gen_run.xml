@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1558017656">
+  <File Type="PWROPT-DRC" Name="cycle_basic_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="cycle_basic_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="cycle_basic_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="cycle_basic_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="cycle_basic.tcl"/>
+  <File Type="OPT-HWDEF" Name="cycle_basic.hwdef"/>
+  <File Type="RDI-RDI" Name="cycle_basic.vdi"/>
+  <File Type="OPT-DCP" Name="cycle_basic_opt.dcp"/>
+  <File Type="OPT-DRC" Name="cycle_basic_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="cycle_basic_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="cycle_basic_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="cycle_basic_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="cycle_basic_placed.dcp"/>
+  <File Type="PLACE-IO" Name="cycle_basic_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="cycle_basic_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="cycle_basic_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="cycle_basic_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="cycle_basic_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="cycle_basic_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="cycle_basic_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="cycle_basic_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="cycle_basic_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="cycle_basic_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="cycle_basic_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="cycle_basic_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="cycle_basic_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="cycle_basic_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="cycle_basic_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="cycle_basic_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="cycle_basic_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="cycle_basic_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="cycle_basic.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="cycle_basic_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="cycle_basic.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="cycle_basic_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="cycle_basic.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="cycle_basic_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="cycle_basic.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="cycle_basic_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="cycle_basic_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="cycle_basic_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="cycle_basic_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="cycle_basic_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="cycle_basic_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="cycle_basic_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="cycle_basic_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="cycle_basic_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="cycle_basic_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="cycle_basic_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="cycle_basic_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="cycle_basic_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="cycle_basic_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="cycle_basic_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="cycle_basic.bit"/>
+  <File Type="BITSTR-RBT" Name="cycle_basic.rbt"/>
+  <File Type="BITSTR-NKY" Name="cycle_basic.nky"/>
+  <File Type="BITSTR-BMM" Name="cycle_basic_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="cycle_basic.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="cycle_basic.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/sync.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/debouncer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/module_clk_div.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/module_cycle_basic.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="cycle_basic"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/module_cycle_basic.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

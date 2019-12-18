@@ -1,0 +1,26 @@
+
+set_property PACKAGE_PIN W5 [get_ports clk]       
+ set_property IOSTANDARD LVCMOS33 [get_ports clk]
+set_property PACKAGE_PIN  R2 [get_ports reset]     
+ set_property IOSTANDARD LVCMOS33 [get_ports reset]
+ set_property PACKAGE_PIN  T17 [get_ports walk]     
+  set_property IOSTANDARD LVCMOS33 [get_ports walk]
+  set_property PACKAGE_PIN  V17 [get_ports sensor]     
+   set_property IOSTANDARD LVCMOS33 [get_ports sensor]
+   
+   set_property PACKAGE_PIN L1 [get_ports {light_main[0]}]                    
+   set_property IOSTANDARD LVCMOS33 [get_ports {light_main[0]}]
+      set_property PACKAGE_PIN P1 [get_ports {light_main[1]}]                    
+   set_property IOSTANDARD LVCMOS33 [get_ports {light_main[1]}]
+      set_property PACKAGE_PIN N3 [get_ports {light_main[2]}]                    
+   set_property IOSTANDARD LVCMOS33 [get_ports {light_main[2]}]
+   
+      set_property PACKAGE_PIN U19 [get_ports {light_side[0]}]                    
+   set_property IOSTANDARD LVCMOS33 [get_ports {light_side[0]}]
+      set_property PACKAGE_PIN E19 [get_ports {light_side[1]}]                    
+   set_property IOSTANDARD LVCMOS33 [get_ports {light_side[1]}]
+      set_property PACKAGE_PIN U16 [get_ports {light_side[2]}]                    
+   set_property IOSTANDARD LVCMOS33 [get_ports {light_side[2]}]
+   
+         set_property PACKAGE_PIN V13 [get_ports {light_walk}]                    
+set_property IOSTANDARD LVCMOS33 [get_ports {light_walk}]
